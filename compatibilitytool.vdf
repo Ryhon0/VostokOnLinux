@@ -1,0 +1,13 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+    "vostokonlinux"
+    {
+      "install_path" "."
+      "display_name" "Vostok on Linux"
+      "from_oslist"  "windows"
+      "to_oslist"    "linux"
+    }
+  }
+}
