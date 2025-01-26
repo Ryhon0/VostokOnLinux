@@ -1,6 +1,5 @@
 #!/bin/bash
-if [[ $2 == *"iscriptevaluator.exe"* ]]; then
-	echo "ignoring iscriptevaluator.exe"
+if [[ $2 == *"iscriptevaluator.exe"* ]] || [[ $2 == *"d3ddriverquery64.exe"* ]]; then
 	exit 0
 fi
 
